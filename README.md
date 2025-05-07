@@ -1,9 +1,12 @@
 # Kafka-Assignment
 To create the environment for the assignment:
 
-1. Build the docker image executing the following command in the base repository folder.
+1. Build the docker image by executing the appropriate command in the base repository folder:
 
-    ```docker build -t kafka-jupyter .```
+    - **Linux/Windows**:
+      ```docker build -t kafka-jupyter .```
+    - **macOS**:
+      ```docker build -t kafka-jupyter . --file=Dockerfile_mac```
 
 2. Run the container.
 
